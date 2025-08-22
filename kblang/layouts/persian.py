@@ -1,5 +1,5 @@
 from .base import KeyboardLayout
-class FaLayout(KeyboardLayout)
+class FaLayout(KeyboardLayout):
     @property
     def mapping(self) -> list:
         self.fa_layout = [
@@ -14,5 +14,5 @@ class FaLayout(KeyboardLayout)
             'ـ', 'ٓ', 'ٰ', 'ٔ', 'ٕ', 'ٔ', 'ٓ', 'ٰ', 'ٖ', 'ٗ',
             '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+'
         ]
-        return [*fa_layout, *fa_shift_layout]
+        return [*self.fa_layout, *self.fa_shift_layout]
 
