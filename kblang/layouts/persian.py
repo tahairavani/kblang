@@ -1,4 +1,6 @@
-from .base import KeyboardLayout
+from .keyboard_layouts import KeyboardLayout
+
+
 class FaLayout(KeyboardLayout):
     @property
     def mapping(self) -> list:
@@ -16,3 +18,6 @@ class FaLayout(KeyboardLayout):
         ]
         return [*self.fa_layout, *self.fa_shift_layout]
 
+    @property
+    def language_code(self) -> str:
+        return "fa"
