@@ -1,4 +1,5 @@
 from layouts.keyboard_layouts import KeyboardLayout
+from lang_ditact import Langueageditector
 
 
 class ConvertLang:
@@ -13,6 +14,8 @@ class ConvertLang:
         result = self.text
         for from_lang, to_lang in zip(ConvertLang.languages[self.from_lang], ConvertLang.languages[self.to_lang]):
             result = result.replace(from_lang, to_lang)
+            if from_lang == None:
+                result = result.replace(Langueageditector(self.text).get_languages()[0], to_lang)
         return result
 
     def __str__(self):

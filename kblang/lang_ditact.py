@@ -1,7 +1,6 @@
 from layouts.keyboard_layouts import KeyboardLayout
 from layouts.persian import FaLayout
 from layouts.english import EnLayout
-from converter import ConvertLang
 
 class Langueageditector:
     def __init__(self, text):
@@ -16,7 +15,7 @@ class Langueageditector:
                     scores[lang] = scores.get(lang, 0) + 1
                     total_charts += 1
 
-    #mohasebe darsad
+        #mohasebe darsad
         percentages = {}
         for lang, count in scores.items():
             percentages[lang] = round((count / total_charts) * 100, 2) if total_charts > 0 else 0 
