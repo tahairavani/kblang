@@ -4,15 +4,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PyPI Version](https://img.shields.io/pypi/v/kblang.svg)](https://pypi.org/project/kblang/)
 
-A Python library to correct spelling errors caused by incorrect language selection
+A Python library to correct spelling errors caused by incorrect keyboard language selection 
 
-## Over view
+## Overview 
+With kblang you can change the keyboard language of a text to other languages ​​
 
-A Python library to correct spelling errors caused by incorrect language selection
+It is very common that users do not select the correct language when typing with the keyboard and the text they type is completely meaningless 
 
-## best features 
+For example, they want to write Hello, how are you 
 
-## installation guide 
+But the keyboard language is Persian and it is typed 
 
-## hhow to use this library 
-
+"عثممخ اخس شقث غخع"
