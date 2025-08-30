@@ -27,3 +27,4 @@ class KeyboardLayout(ABC):
             return cls._all_keyboard_layouts()[layout]
         else:
             return cls._all_keyboard_layouts()
+
