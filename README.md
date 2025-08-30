@@ -24,8 +24,11 @@ But you can now use kblang to convert user input into what it should be when sea
 - Use the keyboard layout however you like. You can use it for your own custom modules.
 
 ### Languages ​​and layouts supported in kblang
-- persian -> FaLayout class
-- english -> EnLayout class
+- persian 🇮🇷 -> FaLayout class
+- english 🏴󠁧󠁢󠁥󠁮󠁧󠁿 -> EnLayout class
+- spanish 🇪🇸 -> SpLayout class
+- arabic  🇸🇦-> ArLayout class
+- italian 🇮🇹 -> ItLayout class
 
 ## Installation Guide
 
