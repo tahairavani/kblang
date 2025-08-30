@@ -12,10 +12,11 @@ class ConvertLang:
 
     def get_converted_text(self):
         result = self.text
-        for from_lang, to_lang in zip(ConvertLang.languages[self.from_lang], ConvertLang.languages[self.to_lang]):
+        if self.from_lang is not None:
+            self.from_lang = Langueageditector(self.text).get_languages()[0]
+        for from_lang, to_lang in zip(ConvertLang.languages[self.from_lang],
+                                      ConvertLang.languages[self.to_lang]):
             result = result.replace(from_lang, to_lang)
-            if from_lang == None:
-                result = result.replace(Langueageditector(self.text).get_languages()[0], to_lang)
         return result
 
     def __str__(self):

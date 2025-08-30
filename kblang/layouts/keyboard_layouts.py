@@ -23,7 +23,7 @@ class KeyboardLayout(ABC):
 
     @classmethod
     def get_keyboard_layouts(cls, layout=None):
-        if layout != None:
+        if layout is not None:
             return cls._all_keyboard_layouts()[layout]
         else:
             return cls._all_keyboard_layouts()
