@@ -12,3 +12,7 @@ A Python library to correct spelling errors caused by incorrect language selecti
 
 ## best features 
 
+## installation guide 
+
+## hhow to use this library 
+
