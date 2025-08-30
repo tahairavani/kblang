@@ -57,4 +57,4 @@ from kblang.lang_ditect import LanguageDitector # for ditect language of text
 #and more classes in kblang
 
 ~~~
-To learn more about the methods of [this]([https://github.com/tahairavani/kblang](https://github.com/tahairavani/kblang/wiki/Guide-to-using-the-library)) library, you can read the user guide.
+To learn more about the methods of [this](https://github.com/tahairavani/kblang/wiki/Guide-to-using-the-library) library, you can read the user guide.
