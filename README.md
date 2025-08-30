@@ -40,8 +40,21 @@ install with pip:
 pip install kblang
 ~~~
 
-install from this repository:
+OR install from this repository:
 
 ~~~shell
 pip install git+https://github.com/tahairavani/kblang.git
 ~~~
+
+## How to use kblang
+
+To use kb lang, you can import its classes after installation and enjoy it easily (:
+
+~~~python
+from kblang.converter import ConvertLang # Converter class
+from kblang.lang_ditect import LanguageDitector # for ditect language of text
+
+#and more classes in kblang
+
+~~~
+To learn more about the methods of [this](https://github.com/tahairavani/kblang) library, you can read the user guide.
