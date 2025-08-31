@@ -1,8 +1,9 @@
-from layouts.keyboard_layouts import KeyboardLayout
-from lang_ditact import Langueageditector
-from layouts.load_keyboard_layouts import load_layouts
-
+from .layouts.keyboard_layouts import KeyboardLayout
+from .lang_ditact import Langueageditector
+from .layouts.load_keyboard_layouts import load_layouts
+from .layouts.load_keyboard_layouts import load_layouts
 class ConvertLang:
+    load_layouts()
     languages = KeyboardLayout.get_keyboard_layouts()
 
     def __init__(self, text, from_lang=None, to_lang=None):
@@ -13,7 +14,7 @@ class ConvertLang:
     def get_converted_text(self):
         result = self.text
         if self.from_lang is not None:
-            self.from_lang = Langueageditector(self.text).get_languages()[0]
+            self.from_lang = Langueageditector(self.text).check_languae()[0]
         for from_lang, to_lang in zip(ConvertLang.languages[self.from_lang],
                                       ConvertLang.languages[self.to_lang]):
             result = result.replace(from_lang, to_lang)

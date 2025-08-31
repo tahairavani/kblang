@@ -1,4 +1,4 @@
-from layouts.keyboard_layouts import KeyboardLayout
+from .layouts.keyboard_layouts import KeyboardLayout
 
 
 class Langueageditector:
