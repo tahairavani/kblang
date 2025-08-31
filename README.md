@@ -58,3 +58,10 @@ from kblang.lang_ditect import LanguageDitector # for ditect language of text
 
 ~~~
 To learn more about the methods of [this](https://github.com/tahairavani/kblang/wiki/Guide-to-using-the-library) library, you can read the user guide.
+
+## Contribute 
+To contribute, you can view the issues, fork this repository, and then submit your changes as a pull request to this repo. 
+
+I'll be happy to merge them. 
+
+You can also read [this](https://github.com/tahairavani/kblang/wiki) guide.
