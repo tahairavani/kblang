@@ -29,6 +29,7 @@ But you can now use kblang to convert user input into what it should be when sea
 - spanish 🇪🇸 -> SpLayout class
 - arabic  🇸🇦-> ArLayout class
 - italian 🇮🇹 -> ItLayout class
+- japanese 🇯🇵 -> JaLayout class
 
 ## Installation Guide
 
