@@ -31,7 +31,7 @@ But you can now use kblang to convert user input into what it should be when sea
 - italian 🇮🇹 -> ItLayout class
 - japanese 🇯🇵 -> JaLayout class
 - turkish 🇹🇷 -> TrLayout class
-- korean 🇰🇷 -> Kolayout class
+- korean 🇰🇷,🇰🇵 -> Kolayout class
 
 ## Installation Guide
 
