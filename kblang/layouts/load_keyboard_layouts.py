@@ -5,3 +5,4 @@ def load_layouts():
     from .persian import FaLayout
     from .spanish import EsLayout
     from .japon import JaLayot
+    from .turkish import TrLayout
