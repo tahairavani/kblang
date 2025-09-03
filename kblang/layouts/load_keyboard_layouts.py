@@ -7,3 +7,4 @@ def load_layouts():
     from .japon import JaLayot
     from .turkish import TrLayout
     from .russian import RuLayout
+    from .french import FrLayout
