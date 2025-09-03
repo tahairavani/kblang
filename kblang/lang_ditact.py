@@ -1,5 +1,5 @@
 from .layouts.keyboard_layouts import KeyboardLayout
-from langdetect import detect_langs
+
 
 class Langueageditector:
     def __init__(self, text):
@@ -34,15 +34,3 @@ class Langueageditector:
 
     def __str__(self):
         self.check_languae()
-    
-    def detect_language_scores(self) -> dict:
-        """
-        Detect possible languages of a given text with confidence scores.
-        Uses langdetect library.
-        """
-        try:
-            detections = detect_langs(self.text)  # returns list like [en:0.71, fr:0.29]
-            return {d.lang: d.prob for d in detections}
-        except Exception:
-            # fallback if detection fails
-            return {"unknown": 1.0}
