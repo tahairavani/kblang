@@ -12,3 +12,5 @@ def load_layouts():
     from .hindi import HiLayout
     from .urdu import UrLayout
     from .portuguese import PtLayout
+    from .korean import KoLayout
+
