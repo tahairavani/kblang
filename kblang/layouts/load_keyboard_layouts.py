@@ -9,3 +9,4 @@ def load_layouts():
     from .russian import RuLayout
     from .french import FrLayout
     from .german import DeLayout
+    from .hindi import HiLayout
