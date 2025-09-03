@@ -11,3 +11,4 @@ def load_layouts():
     from .german import DeLayout
     from .hindi import HiLayout
     from .urdu import UrLayout
+    from .portuguese import PtLayout
