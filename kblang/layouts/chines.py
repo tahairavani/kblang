@@ -1,7 +1,7 @@
 from .keyboard_layouts import KeyboardLayout
 
 
-class ChLayout(KeyboardLayout):
+class ZhLayout(KeyboardLayout):
     @property
     def mapping(self) -> list:
         self._zh_layout = [
