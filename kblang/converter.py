@@ -2,6 +2,7 @@ from .layouts.keyboard_layouts import KeyboardLayout
 from .lang_ditact import Langueageditector
 from .layouts.load_keyboard_layouts import load_layouts
 from .layouts.load_keyboard_layouts import load_layouts
+
 class ConvertLang:
     load_layouts()
     languages = KeyboardLayout.get_keyboard_layouts()
