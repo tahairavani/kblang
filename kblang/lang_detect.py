@@ -15,13 +15,11 @@ class Langueageditector:
                     scores[lang] = scores.get(lang, 0) + 1
                     total_charts += 1
 
-        # mohasebe darsad
         percentages = {}
         for lang, count in scores.items():
             percentages[lang] = round(
                 (count / total_charts) * 100, 2) if total_charts > 0 else 0
 
-        # peyda kardan zaban asli
         best_lang = max(
             percentages, key=percentages.get) if percentages else None
         return best_lang, percentages
