@@ -35,6 +35,11 @@ But you can now use kblang to convert user input into what it should be when sea
 - franch 🇫🇷 
 - german 🇩🇪
 - hindi 🇮🇳
+- chiness 🇨🇳
+- portuguese 🇵🇹
+- russia 🇷🇺
+- kurdish (arabic) 🇮🇶
+- urdu 🇵🇰
 
 
 ## Installation Guide
