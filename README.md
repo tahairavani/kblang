@@ -4,35 +4,35 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PyPI Version](https://img.shields.io/pypi/v/kblang.svg)](https://pypi.org/project/kblang/)
 
-A Python library to correct spelling errors caused by incorrect keyboard language selection 
+A Python library to correct spelling errors caused by incorrect keyboard language selection
 
-## Description 
+## Description
 With kblang you can change the keyboard language of a text to other languages ​​
 
-It is very common that users do not select the correct language when typing with the keyboard and the text they type is completely meaningless 
+It is very common that users do not select the correct language when typing with the keyboard and the text they type is completely meaningless
 
-For example, they want to write Hello, how are you 
+For example, they want to write Hello, how are you
 
-But the keyboard language is Persian and it is typed : 
+But the keyboard language is Persian and it is typed :
 "عثممخ اخس شقث غخع"
 
-But you can now use kblang to convert user input into what it should be when searching or entering other information. 
+But you can now use kblang to convert user input into what it should be when searching or entering other information.
 ## Features
 - Modular support for different keyboards and languages
 - Ability to easily add new keyboards
 - Text language detection with dedicated language detector module
 - Use the keyboard layout however you like. You can use it for your own custom modules.
 
-### Languages ​​and layouts supported in kblang
+### Languages and layouts supported in kblang
 - persian 🇮🇷
 - english 🏴󠁧󠁢󠁥󠁮󠁧󠁿
 - spanish 🇪🇸
 - arabic  🇸🇦
 - italian 🇮🇹
-- japanese 🇯🇵 
-- turkish 🇹🇷 
+- japanese 🇯🇵
+- turkish 🇹🇷
 - korean 🇰🇷,🇰🇵
-- franch 🇫🇷 
+- franch 🇫🇷
 - german 🇩🇪
 - hindi 🇮🇳
 - chiness 🇨🇳
@@ -71,10 +71,10 @@ from kblang.lang_ditect import LanguageDitector # for ditect language of text
 ~~~
 To learn more about the methods of [this](https://github.com/tahairavani/kblang/wiki/Guide-to-using-the-library) library, you can read the user guide.
 
-## Contribute 
-To contribute, you can view the issues, fork this repository, and then submit your changes as a pull request to this repo. 
+## Contribute
+To contribute, you can view the issues, fork this repository, and then submit your changes as a pull request to this repo.
 
-I'll be happy to merge them. 
+I'll be happy to merge them.
 
 You can also read [this](https://github.com/tahairavani/kblang/wiki) guide.
 
@@ -82,5 +82,5 @@ You can also read [this](https://github.com/tahairavani/kblang/wiki) guide.
 
 Develoaped with [tahairavani](https://github.com/tahairavani) & [alisaadati10](https://github.com/alisaadati10)
 
-## License 
+## License
 This is free software, licensed under the MIT license. You can view it on the kblang [license](https://github.com/tahairavani/kblang/?tab=MIT-1-ov-file) page.
