@@ -14,3 +14,4 @@ def load_layouts():
     from .korean import KoLayout
     from .kurdishArabic import KuAraLayout
     from .chinese import ZhLayout
+    from .poland import PlLayout
