@@ -17,4 +17,4 @@ def load_layouts():
     from .polish import PlLayout
     from .greek import ElLayout
     from .swedish import SvLayout
-    
+    from .afrikaans import AfLayout
